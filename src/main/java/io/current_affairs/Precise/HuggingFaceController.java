@@ -16,7 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = {"https://summarize-news-production.up.railway.app/api/summarize-pdf", "https://summarize-news-production.up.railway.app/api/summarize"}, allowCredentials = "true")
+//@CrossOrigin(origins = {"https://summarize-news-production.up.railway.app/api/summarize-pdf", "https://summarize-news-production.up.railway.app/api/summarize"}, allowCredentials = "true")
 
 public class HuggingFaceController {
 	
