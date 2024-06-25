@@ -84,6 +84,8 @@
         <artifactId>lombok</artifactId>
         <optional>true</optional>
     </dependency>
+    
+    
 		
 	</dependencies>
 
@@ -94,6 +96,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>recap</finalName>
 	</build>
 
 </project>
