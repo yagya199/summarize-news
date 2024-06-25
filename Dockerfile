@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/Precise-0.0.1-SNAPSHOT.jar Precise.jar
+COPY --from=build /target/precise-0.0.1-SNAPSHOT.jar precise.jar
 EXPOSE 8081
 ENTRYPOINT ["java","-jar","Precise.jar"]
